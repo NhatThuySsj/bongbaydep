@@ -190,3 +190,69 @@ p {
     color: white;
     font-weight: 500;
 }
+
+.comtent_entry {
+
+}
+
+.product_type {
+
+}
+
+.main_details {
+    display: flex;
+}
+
+.main_img {
+
+}
+
+.main_img_icon {
+
+}
+
+.main_img_product {
+
+}
+
+.img_product {
+
+}
+
+.post_img {
+    width: 70%;
+    cursor: default;
+    padding: 20px;
+}
+
+.summary_text {
+    margin-top: 20px;
+    margin-left: -160px;
+    width: 50%;
+}
+
+.text_price{
+
+}
+.price{
+    color: #DB1C5D;
+    font-weight: 600;
+}
+.woocommer_price{
+    margin-left: -4px;
+}
+
+.product_meta{
+
+}
+.posted_in a{
+    text-decoration: none;
+    color: #999;
+    font-weight: 500;
+    font-size: 12;
+}
+
+.product_list a {
+    text-decoration: none;
+    color: #337ab7;
+}
