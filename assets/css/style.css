@@ -174,6 +174,7 @@ p {
     width: 1170px;
     background: #ffffff none repeat scroll 0 0;
     box-shadow: 0 0 5px #a1a1a1;
+    padding-bottom: 20px;
     padding-top: 15px;
     padding-right: 15px;
     padding-left: 15px;
@@ -376,6 +377,17 @@ p {
     margin-bottom: 10px;
 }
 
+.price_del {
+    color: #666;
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.price_ins {
+    color: #01a1dd;
+    text-decoration: none;
+}
+
 .product_img img {
     padding: 5px;
 }
@@ -451,10 +463,10 @@ p {
 
 .product_detail {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 6px;
     padding-bottom: 20px;
     box-shadow: 0 1px 3px #ccc;
-    margin-bottom: 15px;
+    margin-bottom: 4px;
 }
 
 .product_list_link {
@@ -470,9 +482,9 @@ p {
 }
 
 .product_title_link {
-    font-size: 16px;
+    font-size: 15px;
     color: #222;
-    min-height: 50px;
+    min-height: 70px;
 }
 
 .product_price {
@@ -500,5 +512,77 @@ p {
 }
 
 .footer {
+    width: 100%;
+    float: left;
+    background: #41b76f;
+    padding-bottom: 150px;
+}
 
+.container_footer {
+    width: 1170px;
+    padding-left: 26px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row_footer {
+    display: flex;
+}
+
+.row_footer {
+
+}
+
+.list_footer_1 {
+    width: 25%;
+}
+
+.list_footer_2 {
+    width: 50%;
+}
+
+.list_footer_3 {
+    width: 25%;
+}
+
+.footer_title {
+
+}
+
+.title_h3 {
+    float: left;
+    color: #fff;
+}
+
+.title_footer {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text_intro {
+    margin-left: 0;
+}
+
+.menu_item_link {
+    margin-bottom: 8px;
+}
+
+.menu_item_link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.block_footer {
+    width: 100%;
+}
+
+.intro_container_footer {
+    line-height: 24px;
+}
+
+.text_phone_number {
+    text-decoration: none;
+    color: #337ab7;
 }
