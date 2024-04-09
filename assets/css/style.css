@@ -9,6 +9,10 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
 #main {
 
 }
@@ -406,6 +410,10 @@ p {
     color: red;
 }
 
+.woocommer_price_curren {
+    margin-left: -6px;
+}
+
 .btn_link {
     text-decoration: none;
     color: #333;
@@ -594,4 +602,16 @@ p {
 .text_phone_number {
     text-decoration: none;
     color: #337ab7;
+}
+
+@media only screen (max-with: 63.9375em) {
+    
+}
+
+@media only screen (max-with: 46.1875em) {
+
+}
+
+@media only screen (min-with: 46.25em) and (max-with: 63.9375em) {
+
 }
