@@ -308,6 +308,14 @@ p {
     margin-bottom: 15px;
 }
 
+.media_img_10 {
+    box-shadow: 0 1px 3px #ccc;
+}
+
+.row_left_product {
+    padding-bottom: 10px;
+}
+
 .img_tab img {
     width: 100%;
     height: auto;
@@ -353,8 +361,8 @@ p {
     text-align: center;
     box-shadow: 0 1px 3px #ccc;
     margin-bottom: 10px;
-    margin-left: -3px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 6px;
     padding-bottom: 18px;
 }
 
@@ -393,6 +401,7 @@ p {
 }
 
 .woocommer_price bdi {
+    font-size: 16px;
     display: flex;
     color: red;
 }

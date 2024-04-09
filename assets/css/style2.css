@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -179,6 +183,10 @@ p {
     box-shadow: 0 0 5px #a1a1a1;
 }
 
+.main_row {
+    display: flex;
+}
+
 .main_left {
     width: 75%;
 }
@@ -236,15 +244,20 @@ p {
 }
 .price{
     color: #DB1C5D;
-    font-weight: 600;
+    font-weight: 500;
 }
 .woocommer_price{
     margin-left: -4px;
 }
 
 .product_meta{
-
+    font-size: 14px;
 }
+
+.posted_in {
+    font-weight: bold;
+}
+
 .posted_in a{
     text-decoration: none;
     color: #999;
@@ -255,4 +268,244 @@ p {
 .product_list a {
     text-decoration: none;
     color: #337ab7;
+}
+
+.desc_text {
+
+}
+
+.desc_woocommer {
+    margin: auto;
+    padding: 10px 0;
+    width: 98%;
+    background: #f3f3f3;
+    list-style: none;
+    border-bottom: 2px solid #3bb2ca;
+    border-left: 2px solid #3bb2ca;
+    border-right: 2px solid #3bb2ca;
+}
+
+.desc_tabs {
+
+}
+
+.text_tabs {
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    padding: 9.2px 14px;
+    border: 1px solid #d3ced2;
+    border-bottom: 1.6px solid #58bb2c;  
+}
+
+.text_line {
+    padding: 20px;
+}
+
+.text_line p {
+    color: #333;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.title_h2 {
+    font-size: 32px;
+    color: #111;
+    font-weight: 500;
+}
+
+.list_product {
+    margin-left: 8px;
+}
+
+.title_product {
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+}
+
+.product_colum_4 {
+    margin-top: 14px;
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.row_left_product {
+    box-shadow: 0 1px 3px #ccc;
+}
+
+.product {
+    padding-bottom: 10px;
+}
+
+.product_1 {
+    margin-right: 24px;
+    width: 22%;
+    border: 1px solid #ebebeb;
+    padding-bottom: 18px;
+}
+
+.product_link {
+    text-decoration: none;
+}
+
+.product_image {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+}
+
+.product_title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.price_span {
+
+}
+
+.price_del {
+    color: #666;
+}
+
+.price_sale {
+    margin-left: -5px;
+}
+
+.price_del_sale {
+    color: #01a1dd;
+    margin-left: 10px;
+}
+
+.btn_link {
+    margin-top: 16px;
+}
+
+.btn_link_dm {
+
+}
+
+.btn_list_link {
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #41b76f;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+/* Main_right */
+.main_right {
+    margin-right: 15px;
+    margin-left: 34px;
+    width: 25%;
+}
+
+.img_tab {
+    margin-bottom: 15px;
+}
+
+.img_tab img {
+    width: 100%;
+    height: auto;
+}
+
+.tab_text_1 {
+    padding: 7px;
+    margin: 0px;
+    background-color: #41b76f;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid #eee;
+}
+
+.product_1 {
+    width: 22.4%;
+}
+
+.product_text {
+    padding: 6px 25px;
+    background-color: #0f9ed8;
+}
+
+.title_link_a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.product_row {
+    display: flex;
+}
+
+.product_1 {
+    /* width: 100%; */
+    margin-top: 30px;
+}
+
+.product_1 {
+    text-align: center;
+    box-shadow: 0 1px 3px #ccc;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-bottom: 18px;
+}
+
+.woocommer_link {
+    text-decoration: none;
+}
+
+.title_1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
+    margin-top: 10px;
+    height: 32px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.product_price {
+    margin-bottom: 10px;
+}
+
+.price_del {
+    color: #666;
+    margin-right: 6px;
+}
+
+.price_ins {
+    color: #01a1dd;
+    text-decoration: none;
+}
+
+.product_img img {
+    padding: 5px;
+}
+
+.woocommer_price bdi {
+    display: flex;
+    color: red;
+}
+
+.btn_link {
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.btn_zalo {
+    border-radius: 5px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border: 1px solid #ccc;
 }
